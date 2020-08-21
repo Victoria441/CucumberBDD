@@ -1,0 +1,307 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-21T21:43:32.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6887000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Testing youtube",
+        "description": "",
+        "id": "class-task-step;testing-youtube",
+        "after": [
+          {
+            "result": {
+              "duration": 780000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3872000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open \"youtube\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"youtube\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify title is \"YouTube\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"YouTube\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1301000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click \"Trending\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Trending\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@classtask"
+          },
+          {
+            "name": "@test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-21T21:43:45.104Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Testing amazon",
+        "description": "",
+        "id": "class-task-step;testing-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3885000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I open \"amazon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify title is \"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3854000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click \"Gift Cards\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gift Cards\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@classtask"
+          },
+          {
+            "name": "@test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-21T21:43:59.289Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5389000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Testing chase bank",
+        "description": "",
+        "id": "class-task-step;testing-chase-bank",
+        "after": [
+          {
+            "result": {
+              "duration": 830000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5906000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I open \"ChaseBank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ChaseBank\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify title is \"Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3957000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click \"ATM \u0026 branch\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ATM \u0026 branch\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@classtask"
+          },
+          {
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "Class Task Step",
+    "description": "",
+    "id": "class-task-step",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/classTask.feature",
+    "tags": [
+      {
+        "name": "@classtask",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
