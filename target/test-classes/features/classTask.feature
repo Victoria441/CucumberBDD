@@ -1,16 +1,16 @@
 @classtask
 Feature: Class Task Step
-  @test2
+  @youtube
   Scenario: Testing youtube
     Given I open "youtube"
     Then I verify title is "YouTube"
     When I click "Trending" button
-  @test2
+  @amazon
   Scenario: Testing amazon
     Given I open "amazon"
     Then I verify title is "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"
     When I click "Gift Cards" button
-  @test2
+  @chase
   Scenario: Testing chase bank
     Given I open "ChaseBank"
     Then I verify title is "Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com"

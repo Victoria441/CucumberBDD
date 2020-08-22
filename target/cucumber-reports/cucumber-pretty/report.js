@@ -1,159 +1,93 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/classTask.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/UserMgt.feature");
 formatter.feature({
-  "name": "Class Task Step",
+  "name": "User Management page tests",
   "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@classtask"
-    }
-  ]
+  "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Testing youtube",
+  "name": "Register new user",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@classtask"
-    },
-    {
-      "name": "@test2"
+      "name": "@registerUser"
     }
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "I open \"youtube\"",
+  "name": "I open \"http://automation.techleadacademy.io/#/usermgt\"",
   "keyword": "Given "
 });
 formatter.match({
   "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "I verify title is \"YouTube\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click \"Trending\" button",
+  "name": "I input \"Kuba\" as a \"firstname\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
+  "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.step({
+  "name": "I input \"Z\" as a \"lastname\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "I input \"444-444-4444\" as a \"phone number\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "I input \"kuba@tla.com\" as a \"email\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "I input \"Instructor\" as a \"role\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "I click a button \"Submit\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Testing amazon",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@classtask"
-    },
-    {
-      "name": "@test2"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I open \"amazon\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I verify title is \"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click \"Gift Cards\" button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Testing chase bank",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@classtask"
-    },
-    {
-      "name": "@test2"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I open \"ChaseBank\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I verify title is \"Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click \"ATM \u0026 branch\" button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });

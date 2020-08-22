@@ -1,32 +1,31 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-21T21:43:32.124Z",
+        "start_timestamp": "2020-08-22T17:50:34.710Z",
         "before": [
           {
             "result": {
-              "duration": 6887000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "match": {
-              "location": "step_definitions.Hooks.setUp()"
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 4,
-        "name": "Testing youtube",
+        "line": 8,
+        "name": "Register new user",
         "description": "",
-        "id": "class-task-step;testing-youtube",
+        "id": "user-management-page-tests;register-new-user",
         "after": [
           {
             "result": {
-              "duration": 780000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
-              "location": "step_definitions.Hooks.tearDown()"
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -35,15 +34,15 @@
         "steps": [
           {
             "result": {
-              "duration": 3872000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
-            "line": 5,
-            "name": "I open \"youtube\"",
+            "line": 9,
+            "name": "I open \"http://automation.techleadacademy.io/#/usermgt\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"youtube\"",
+                  "val": "\"http://automation.techleadacademy.io/#/usermgt\"",
                   "offset": 7
                 }
               ],
@@ -53,255 +52,145 @@
           },
           {
             "result": {
-              "duration": 20000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I verify title is \"YouTube\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"YouTube\"",
-                  "offset": 18
-                }
-              ],
-              "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1301000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click \"Trending\" button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Trending\"",
-                  "offset": 8
-                }
-              ],
-              "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@classtask"
-          },
-          {
-            "name": "@test2"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-08-21T21:43:45.104Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5400000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "Testing amazon",
-        "description": "",
-        "id": "class-task-step;testing-amazon",
-        "after": [
-          {
-            "result": {
-              "duration": 956000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3885000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 10,
-            "name": "I open \"amazon\"",
+            "name": "I input \"Kuba\" as a \"firstname\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"amazon\"",
-                  "offset": 7
+                  "val": "\"Kuba\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"firstname\"",
+                  "offset": 20
                 }
               ],
-              "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 82000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 11,
-            "name": "I verify title is \"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
+            "name": "I input \"Z\" as a \"lastname\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
-                  "offset": 18
+                  "val": "\"Z\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"lastname\"",
+                  "offset": 17
                 }
               ],
-              "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 3854000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 12,
-            "name": "I click \"Gift Cards\" button",
+            "name": "I input \"444-444-4444\" as a \"phone number\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Gift Cards\"",
+                  "val": "\"444-444-4444\"",
                   "offset": 8
+                },
+                {
+                  "val": "\"phone number\"",
+                  "offset": 28
                 }
               ],
-              "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
             },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@classtask"
+            "keyword": "And "
           },
           {
-            "name": "@test2"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-08-21T21:43:59.289Z",
-        "before": [
-          {
             "result": {
-              "duration": 5389000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
+            "line": 13,
+            "name": "I input \"kuba@tla.com\" as a \"email\"",
             "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Testing chase bank",
-        "description": "",
-        "id": "class-task-step;testing-chase-bank",
-        "after": [
-          {
-            "result": {
-              "duration": 830000000,
-              "status": "passed"
+              "arguments": [
+                {
+                  "val": "\"kuba@tla.com\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"email\"",
+                  "offset": 28
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
             },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 5906000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I input \"Instructor\" as a \"role\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Instructor\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"role\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step_definitions.UserMgtPageTest.i_input_as_a(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 15,
-            "name": "I open \"ChaseBank\"",
+            "name": "I click a button \"Submit\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ChaseBank\"",
-                  "offset": 7
+                  "val": "\"Submit\"",
+                  "offset": 17
                 }
               ],
-              "location": "step_definitions.ClassTaskSteps.iOpen(java.lang.String)"
+              "location": "step_definitions.CommonPageTest.i_click_a_button(java.lang.String)"
             },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 289000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I verify title is \"Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com\"",
-                  "offset": 18
-                }
-              ],
-              "location": "step_definitions.ClassTaskSteps.iVerifyTitleIsYouTube(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3957000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click \"ATM \u0026 branch\" button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ATM \u0026 branch\"",
-                  "offset": 8
-                }
-              ],
-              "location": "step_definitions.ClassTaskSteps.iClickButton(java.lang.String)"
-            },
-            "keyword": "When "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@classtask"
-          },
-          {
-            "name": "@test2"
+            "name": "@registerUser"
           }
         ]
       }
     ],
-    "name": "Class Task Step",
+    "name": "User Management page tests",
     "description": "",
-    "id": "class-task-step",
+    "id": "user-management-page-tests",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/classTask.feature",
-    "tags": [
-      {
-        "name": "@classtask",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/UserMgt.feature",
+    "tags": []
   }
 ]
