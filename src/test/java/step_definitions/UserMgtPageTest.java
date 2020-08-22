@@ -36,4 +36,6 @@ public class UserMgtPageTest extends UserMgtPageImpl {
     public void i_enter_following_data(Map<String, String> dataTable) {
         fillRegistrationForm(dataTable);
     }
+
+
 }

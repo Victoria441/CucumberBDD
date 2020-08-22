@@ -8,10 +8,10 @@ import utils.Driver;
 
 public class UserMgtPage {
     public UserMgtPage(){
-
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
-  @FindBy(id = "Firstname")
+
+    @FindBy(id = "Firstname")
     public WebElement firstnameField;
 
     @FindBy(id = "Lastname")
@@ -19,17 +19,24 @@ public class UserMgtPage {
 
     @FindBy(id = "Email")
     public WebElement emailField;
+
     @FindBy(id = "Phonenumber")
     public WebElement phoneField;
+
     @FindBy(id = "Select-role")
     public WebElement selectRole;
 
     @FindBy(id = "submit-btn")
     public WebElement submitBtn;
 
-    public void selectRole(String roleType) {
+    @FindBy(id = "login-btn")
+    public WebElement logInBtn;
+
+    @FindBy(id = "access-db-btn")
+    public WebElement accessDbBtn;
+
+    public void selectRole(String roleType){
         Select select = new Select(selectRole);
         select.selectByVisibleText(roleType);
-
     }
 }

@@ -3,6 +3,8 @@ package step_implementation;
 import pages.UserMgtPage;
 import utils.SeleniumUtils;
 
+import java.util.Map;
+
 public class UserMgtPageImpl {
     public void fillRegistrationForm(Map<String, String> map){
         UserMgtPage userMgtPage = new UserMgtPage();
